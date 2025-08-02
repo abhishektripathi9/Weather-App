@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to top right, #a1c4fd, #c2e9fb);
+  color: #333;
+  text-align: center;
+  padding: 40px;
+}
+
+.container {
+  background: #ffffffcc;
+  backdrop-filter: blur(5px);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+input, button {
+  padding: 12px;
+  margin-top: 10px;
+  width: 70%;
+  max-width: 400px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #1e9acb;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #c74dcb;
+}
+
+#weatherInfo {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+canvas {
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+#map {
+  height: 300px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
